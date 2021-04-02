@@ -1,0 +1,17 @@
+
+.fixfooter{
+    position: fixed;
+}
+
+#main{
+
+    background-color: blue;
+}
+
+@media(max-width: 650px){
+
+    #main{
+        height: 100%;
+        background-color: black;
+    }
+}
